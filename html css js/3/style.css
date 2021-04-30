@@ -1,0 +1,19 @@
+.heading-content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.heading-content h2{
+    font-size: 3em;
+    color: white;
+}
+.heading-content p{
+    color: white;
+}
+.heading-content h2:nth-child(2) , .heading-content p{
+    font-weight: 200;
+}
+/* .text{
+    position: absolute;
+    top: 50%;
+} */

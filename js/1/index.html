@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="costom.css">
+</head>
+<body>
+    <div class="main">
+        <div class="inside" id="in1">
+        <div class="row">
+            <p>first name :</p>
+            <input type="text" placeholder="your name" id="f-name">
+        </div>
+        <div class="row">
+            <p>last name :</p>
+            <input type="text" placeholder="your last name" id="l-name">
+        </div>
+        <div class="row">
+            <p>phone number :</p>
+            <input type="number" placeholder="your phone number" id="phone">
+            <p id="invalid-num" class="message">your phone number is invalid</p>
+        </div>
+        <div class="row">
+            <p>e-mail :</p>
+            <input type="email" placeholder="your email" id="email">
+            <p id="invalid-email" class="message">your e-mail is invalid</p>
+        </div>
+        <div class="row">
+            <p>country :</p>
+            <select name="country" id="country">
+                <option value="Costa Rica">Costa Rica</option>
+                  <option value="canada">canada</option>
+                  <option value="iceland">iceland</option>
+                  <option value="new zealand">new zealand</option>
+                  <option value="Dominican Republic">Dominican Republic</option>
+                  <option value="austria">austria</option>
+            </select>
+        </div>
+        <div class="row">
+            <p>subject :</p>
+            <textarea name="text" id="text" cols="30" rows="8" placeholder="write something"></textarea>
+        </div>
+        <div class="btn">
+            <button onclick="submite()">submit</button>
+        </div>
+    </div>
+    <div class="inside2" id="in2">
+        <div class="row">
+            <p>first name :</p>
+            <p id="name"></p>
+        </div>
+        <div class="row">
+            <p>last name :</p>
+            <p id="last"></p>
+        </div>
+        <div class="row">
+            <p>phone number :</p>
+            <p id="phone-n"></p>
+        </div>
+        <div class="row">
+            <p>e-mail :</p>
+            <p id="e-mail"></p>
+        </div>
+        <div class="row">
+            <p>country :</p>
+            <p id="Country"></p>
+        </div>
+        <div class="row">
+            <p>subject :</p>
+            <p id="sub"></p>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
